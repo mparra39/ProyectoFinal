@@ -235,14 +235,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         let alert = UIAlertController(title: "Modo de pago", message: "Por favor elija el modo de pago", preferredStyle: .actionSheet)
         
-        /*
-         alert.addAction(UIAlertAction(title: "BBVA - 4807", style: .default, handler: { (action) in
-         //execute some code when this option is selected
-         //            self.skinType = "Fair Skin"
-         print("BBVA - 4807")
-         self.modoPago.text = "   BBVA - 4807"
-         }))
-         */
         alert.addAction(UIAlertAction(title: "Cámara", style: .default, handler: { (action) in
             //execute some code when this option is selected
             //            self.skinType = "Dark Skin"
